@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gunung di Lampung</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+
+      <!-- Logo -->
+      <img class="logo-utama" src="logo.png" alt="Logo Lampung">
+
+      <!-- Text Header -->
+      <div class="hero-text">
+        <h1>Jelajah Gunung Lampung</h1>
+        <p class="lead">3 Rekomendasi Gunung Favorit Di Provinsi Lampung</p>
+      </div>
+
+      <!-- Tombol Scroll -->
+      <div class="btn-container">
+        <a href="#grid" class="btn btn-scroll">Mulai Jelajah</a>
+      </div>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div id="grid" class="grid">
+
+        <!-- Gunung Rajabasa -->
+        <article class="card" data-name="rajabasa">
+          <img class="thumb" src="gunung rajabasa.jpg" alt="Pemandangan Gunung Rajabasa">
+
+          <div class="card-body">
+            <div class="meta">
+              <div class="title">Gunung Rajabasa</div>
+              <div class="sub">1.281 mdpl</div>
+            </div>
+
+            <div class="desc" id="desc-rajabasa">
+              Gunung Rajabasa berada di Lampung Selatan dan terkenal dengan panorama laut dari puncaknya.
+            </div>
+
+            <div class="actions">
+              <button class="btn" data-toggle="rajabasa">Baca selengkapnya</button>
+              <a class="btn ghost" href="https://id.wikipedia.org/wiki/Gunung_Rajabasa" target="_blank">Info Wiki</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Gunung Seminung -->
+        <article class="card" data-name="seminung">
+          <img class="thumb" src="gunung seminung.jpg" alt="Pemandangan Gunung Seminung">
+
+          <div class="card-body">
+            <div class="meta">
+              <div class="title">Gunung Seminung</div>
+              <div class="sub">±1.880 mdpl</div>
+            </div>
+
+            <div class="desc" id="desc-seminung">
+              Gunung Seminung berada dekat Danau Ranau dan memiliki pemandangan yang sangat indah.
+            </div>
+
+            <div class="actions">
+              <button class="btn" data-toggle="seminung">Baca selengkapnya</button>
+              <a class="btn ghost" href="https://id.wikipedia.org/wiki/Gunung_Seminung" target="_blank">Info Wiki</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Gunung Pesagi -->
+        <article class="card" data-name="pesagi">
+          <img class="thumb" src="gunung pesagi.jpg" alt="Pemandangan Gunung Pesagi">
+
+          <div class="card-body">
+            <div class="meta">
+              <div class="title">Gunung Pesagi</div>
+              <div class="sub">Tertinggi di Lampung</div>
+            </div>
+
+            <div class="desc" id="desc-pesagi">
+              Gunung Pesagi merupakan gunung tertinggi di Lampung dan terkenal dengan jalur pendakian menantang.
+            </div>
+
+            <div class="actions">
+              <button class="btn" data-toggle="pesagi">Baca selengkapnya</button>
+              <a class="btn ghost" href="https://id.wikipedia.org/wiki/Gunung_Pesagi" target="_blank">Info Wiki</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Created by : Antika Maharani | &copy; 2025 Jelajah Lampung</p>
+    </footer>
+
+  </div>
+
+  <!-- Script -->
+  <script src="javascript.js"></script>
+</body>
+</html>
