@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampung Mountain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollBtn = document.getElementById("scrollBtn");
+    const target = document.getElementById("mountains");
+
+    scrollBtn.onclick = function () {
+        target.scrollIntoView({ behavior: "smooth" });
+    };
+});
+</script>
+
+<body>
+
+    <!-- NAVBAR -->
+   <nav class="navbar glass">
+    <div class="logo">LAMPUNGMountain</div>
+
+    <div class="nav-right">
+        <img class="hero-siger" src="siger.png" alt="siger">
+        <button class="btn-nav" onclick="window.location.href='https://google.com'">
+            Jelajah
+        </button>
+    </div>
+</nav>
+
+
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img class="hero-logo" src="logo.png" alt="logo">
+        <h1 class="hero-title">Explore Gunung Lampung</h1>
+        <p class="hero-sub">3 Rekomendasi Gunung Favorit Di Provinsi Lampungg</p>
+        <button class="btn-hero" id="scrollBtn">Mulai Jelajah</button>
+    </section>
+
+    <!-- GUNUNG SECTION -->
+    <section class="mountain-section" id="mountains">
+
+        <div class="card glass">
+            <img src="gunung rajabasa.jpg">
+            <h3>Gunung Rajabasa</h3>
+            <span class="tag">1.281 mdpl</span>
+            <p>Gunung Rajabasa terkenal dengan panorama laut dari puncaknya.</p>
+
+            <a class="btn-read" href="https://id.wikipedia.org/wiki/Gunung_Rajabasa" target="_blank">Baca Selengkapnya</a>
+            <a class="btn-wiki" href="https://id.wikipedia.org/wiki/Gunung_Rajabasa" target="_blank">Info Wiki</a>
+        </div>
+
+        <div class="card glass">
+            <img src="gunung seminung.jpg">
+            <h3>Gunung Seminung</h3>
+            <span class="tag">±1.880 mdpl</span>
+            <p>Gunung Seminung berada dekat Danau Ranau dan memiliki pemandangan yang sangat indah.</p>
+
+            <a class="btn-read" href="https://id.wikipedia.org/wiki/Gunung_Seminung" target="_blank">Baca Selengkapnya</a>
+            <a class="btn-wiki" href="https://id.wikipedia.org/wiki/Gunung_Seminung" target="_blank">Info Wiki</a>
+        </div>
+
+        <div class="card glass">
+            <img src="gunung pesagi.jpg">
+            <h3>Gunung Pesagi</h3>
+            <span class="tag">Tertinggi di Lampung</span>
+            <p>Gunung Pesagi merupakan gunung tertinggi di Lampung.</p>
+
+            <a class="btn-read" href="https://id.wikipedia.org/wiki/Gunung_Pesagi" target="_blank">Baca Selengkapnya</a>
+            <a class="btn-wiki" href="https://id.wikipedia.org/wiki/Gunung_Pesagi" target="_blank">Info Wiki</a>
+        </div>
+    </section>
+      <!-- NAVBAR -->
+  <footer>
+      <p> Created by : Antika Maharani | Ratu Nabila Ulfa | Nadia Valentina | Reza Prawira Adijaya | Ahmad Avicena Komarov | Berliantina Julia Putri </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

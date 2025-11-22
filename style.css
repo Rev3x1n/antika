@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #387a67;
+    color: white;
+}
+
+/* NAVBAR ------------------- */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #3ae8ff;
+}
+.hero-siger {
+    width: 100px;
+    filter: drop-shadow(0 0 8px #ecebeb);
+    margin-bottom: 10 px;
+}
+.btn-nav {
+    padding: 10px 24px;
+    border-radius: 25px;
+    border: none;
+    background: #00aaff;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-nav:hover {
+    background: #1ec8ff;
+    transform: scale(1.05);
+}
+
+/* GLASS EFFECT --------------- */
+.glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+/* HERO SECTION ---------------- */
+.hero {
+    height: 130vh;
+    background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.hero-logo {
+    width: 300px;
+    filter: drop-shadow(0 0 8px #000000);
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #08dceb;
+    text-shadow: 0 0 20px #ffffff;
+}
+
+.hero-sub {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.btn-hero {
+    margin-top: 25px;
+    padding: 14px 42px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #00aaff, #007bff);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-hero:hover {
+    transform: scale(1.06);
+    background: linear-gradient(135deg, #1ec8ff, #009dff);
+}
+
+/* GUNUNG SECTION ---------------- */
+.mountain-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 120px 40px;
+}
+
+.card {
+    width: 320px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 18px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0 0 18px rgba(0, 200, 255, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    transition: transform 0.4s ease; 
+}
+
+.card:hover img {
+    transform: scale(1.1);           
+}
+
+.card h3 {
+    margin: 15px;
+    font-size: 1.4rem;
+    color: #7cf0ff;
+}
+
+.tag {
+    margin-left: 15px;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    background: rgba(0, 200, 255, 0.2);
+}
+
+.card p {
+    margin: 12px 15px;
+    font-size: 0.9rem;
+}
+
+.card {
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+
+/* BUTTONS di CARD */
+.btn-read,
+.btn-wiki {
+    display: inline-block;
+    margin: 10px 15px 0;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-read {
+    background: linear-gradient(135deg, #00aaff, #0088ff);
+    box-shadow: 0 4px 15px rgba(0, 170, 255, 0.4);
+}
+
+.btn-read:hover {
+    background: linear-gradient(135deg, #1ec8ff, #009dff);
+    transform: translateY(-2px);
+}
+
+.btn-wiki {
+    background: transparent;
+    border: 1px solid #00caff;
+}
+
+.btn-wiki:hover {
+    background: #00caff;
+    color: #002733;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+}
+.nav-right {
+    display: flex;
+    align-items: center;   /* sejajarkan vertikal */
+    gap: 15px;             /* jarak antara siger & tombol */
+}
+
+.hero-siger {
+    width: 80px;   /* sesuaikan ukuran */
+    height: auto;
+}
+
+.btn-nav {
+    padding: 10px 20px;
+    background: #008cff;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
